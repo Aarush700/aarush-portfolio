@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aarush700.github.io/aarush-portfolio/sitemap.xml
