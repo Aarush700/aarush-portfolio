@@ -8,17 +8,17 @@ export const resumeData = {
     location: "Melbourne, Australia",
     links: {
       github: "https://github.com/Aarush700",
-      linkedin: "https://www.linkedin.com/in/aarush-singh-552684209/",
+      linkedin: "https://www.linkedin.com/in/aarush-singh-994010258/",
       portfolio: "#"
     },
     workRights: "Temporary Graduate Visa (Subclass 485) – Full work rights, valid until 19 March 2028",
     wwcc: "Working With Children Check (WWCC) – Current and valid"
   },
-  summary: "Software Engineering graduate from Swinburne University of Technology with experience building production systems, resolving technical incidents, and supporting end users across IT and operations environments. Currently providing IT field support across Swinburne teaching spaces while actively seeking a full-time graduate role. Skilled across the full stack from React and FastAPI to PostgreSQL and AWS, with a genuine interest in writing software that works reliably in the real world.",
+  summary: "Software Engineering graduate from Swinburne (First Class Honours). I've built production systems that real people use (a restaurant ordering platform, fintech payment flows, autonomous robotics on hardware) and I'm comfortable diagnosing and fixing production incidents under pressure. I know React, FastAPI, PostgreSQL, and AWS, but what matters to me is shipping software that works reliably and solving real problems for actual users. Currently supporting Uber operations at Melbourne Airport.",
   education: {
     institution: "Swinburne University of Technology",
     period: "Feb 2022 – Dec 2025",
-    degree: "Bachelor of Engineering (Honours) – Software Engineering",
+    degree: "Bachelor of Engineering (Honours) – Software Engineering (First Class Honours)",
     gpa: "GPA: 3.2 / 4.0",
     location: "Melbourne, Australia",
     coursework: [
@@ -48,18 +48,18 @@ export const resumeData = {
   },
   experience: [
     {
-      role: "IT Delivery Consultant",
-      company: "Swinburne University of Technology, Infrastructure Services & Operations",
-      location: "Hawthorn, VIC",
-      period: "Jan 2026 – Present",
+      role: "Airport Operations Specialist",
+      company: "Uber",
+      location: "Melbourne Airport, VIC",
+      period: "Jun 2022 – Present",
       bullets: [
-        "Conduct daily readiness checks across teaching spaces and computer labs, verifying power-on status, network connectivity, and AV functionality for all workstations before classes begin; log all identified faults in the ticketing system with clear reproduction steps and escalation notes to ensure issues are resolved within service timelines.",
-        "Provide first-line IT support to academic staff and students across in-person, phone, and email channels, resolving hardware, software, and AV incidents on-site and escalating complex cases to senior IT staff with thorough documentation.",
-        "Contribute to team knowledge by documenting recurring incidents and their resolutions in internal knowledge base articles, reducing repeat ticket volume and improving handover quality across shifts."
+        "Supporting hundreds of riders and drivers every shift by troubleshooting app issues, including payment problems, login failures, and driver-rider matching, helping people get moving efficiently. Every day, I gain firsthand insight into what works and what doesn't in a high-pressure, real-time environment.",
+        "Monitoring real-time operations during peak hours and managing the Perfect Match system to keep rider-to-bay assignments running smoothly. Helped pilot and support the rollout of Uber Kiosks, Uber Child Seat, and UberMax, with all initiatives tested first at Melbourne Airport before deployment across the ANZ network.",
+        "Providing field feedback to the product team by identifying issues firsthand and translating observations into structured recommendations that contribute to product improvements deployed across the region. Developed a strong understanding of how frontline operations influence decisions affecting the broader network."
       ]
     },
     {
-      role: "Final Year Project Engineer – Autonomous Robotics",
+      role: "Autonomous Robotics Capstone Project",
       company: "Swinburne University of Technology, Faculty of Engineering",
       location: "Melbourne, VIC",
       period: "Feb 2025 – Nov 2025",
@@ -78,17 +78,6 @@ export const resumeData = {
         "Diagnosed and resolved live production incidents involving Stripe API failures and webhook synchronisation errors by analysing AWS CloudWatch logs and tracing HTTP request flows; tracked all defects in Jira with reproduction steps, severity assessments, and escalation notes for senior engineers.",
         "Built and maintained RESTful API endpoints and webhook integrations in Node.js and Express with a PostgreSQL backend; delivered a vendor dashboard with real-time order updates and Stripe payment processing, and configured Docker, GitHub Actions CI/CD, and CloudWatch monitoring across the production environment.",
         "Shipped a full React Native mobile application end-to-end covering vendor authentication, flyer customisation, and loyalty reward flows; served as the primary technical contact for vendor stakeholders, translating incident findings into plain language and maintaining progress throughout resolution."
-      ]
-    },
-    {
-      role: "Airport Operations Specialist",
-      company: "Uber",
-      location: "Melbourne Airport, VIC",
-      period: "Jun 2022 – Present",
-      bullets: [
-        "Delivered on-ground and in-app technical support to 100+ riders and drivers daily across Melbourne Airport terminals, resolving app issues including payment failures and authentication errors; compiled structured rider feedback reports that contributed to operational improvements rolled out across ANZ and APAC.",
-        "Monitored Uber's Perfect Match bay-allocation system during peak shifts to ensure correct rider-to-bay assignments, reducing friction at high-volume pick-up points; supported the ground-level rollout of Uber Kiosks at MEL, Uber Child Seat, and UberMax – all piloted from Melbourne before expanding across ANZ.",
-        "Managed real-time queue flow across multiple terminals during peak periods and provided structured feedback to the operations team on newly introduced technology and process changes, directly informing product and experience improvements deployed at network scale."
       ]
     }
   ],
@@ -233,16 +222,27 @@ export const resumeData = {
     { title: "Python 3", provider: "Udemy", year: "2020" },
     { title: "Python", provider: "Kaggle", year: "2020" },
     { title: "Intro to SQL", provider: "Kaggle", year: "2020" },
-    { title: "Intro to Machine Learning", provider: "Kaggle", year: "2020" }
+    { title: "Intro to Machine Learning", provider: "Kaggle", year: "2020" },
+    {
+      title: "Certificate of completion: Claude code 101",
+      provider: "Anthropic",
+      year: "2026",
+      credentialId: "pxxvbtbayeqo"
+    },
+    {
+      title: "Claude Code Subagents - Certificate of completion: Claude 101",
+      provider: "Anthropic",
+      year: "2026",
+      credentialId: "amzuks79cc4w"
+    }
   ],
   achievements: [
-    "Software Engineering graduate from Swinburne University of Technology",
+    "Software Engineering graduate from Swinburne University of Technology (First Class Honours)",
     "International Excellence Scholarship (75%)",
     "Swinburne Emerging Leader",
     "Industry Experience Certificate",
     "Real-world production restaurant ordering system actively serving users",
     "Autonomous robotics navigation project with 95%+ accuracy",
-    "AI-powered fintech software engineering internship",
-    "Current university IT Delivery support consultant role"
+    "AI-powered fintech software engineering internship"
   ]
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GraduationCap, Code2, Cloud, Sparkles } from 'lucide-react';
+import { resumeData } from '../data/resume';
 
 export default function About() {
   const cardVariants = {
@@ -48,19 +49,11 @@ export default function About() {
             variants={textVariants}
           >
             <h3 className="text-xl md:text-2xl font-semibold text-black dark:text-white leading-snug">
-              Graduate Software Engineer with a passion for building robust, scalable products that perform in the real world.
+              {resumeData.personal.title} — {resumeData.personal.subTitle}
             </h3>
 
             <p className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base leading-relaxed">
-              I recently graduated in Software Engineering from Swinburne University of Technology. During my studies, I specialized in distributed architectures, cloud platforms, and reliable systems.
-            </p>
-
-            <p className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base leading-relaxed">
-              Currently, I work as an IT Delivery Consultant at Swinburne, supporting academic infrastructures and managing active AV/network issues. My professional background spans fintech engineering, autonomous robotics research, and logistics operations.
-            </p>
-
-            <p className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base leading-relaxed">
-              I am actively looking for a full-time graduate role where I can apply my skills across the full-stack, automate DevOps pipelines, and collaborate with engineering teams to deploy production-grade software.
+              {resumeData.summary}
             </p>
           </motion.div>
 

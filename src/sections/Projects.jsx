@@ -76,7 +76,7 @@ export default function Projects() {
                   <motion.img 
                     src={`/images/projects/${project.imageIndex}.png`} 
                     alt={project.title}
-                    className="w-full h-full object-cover grayscale dark:opacity-85 hover:grayscale-0 dark:hover:opacity-100 transition-all duration-700"
+                    className="w-full h-full object-cover transition-all duration-700"
                     whileHover={{ scale: 1.03 }}
                     loading="lazy"
                   />
