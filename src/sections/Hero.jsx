@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Download, ArrowRight, Briefcase, Award } from 'lucide-react';
+import { Download, ArrowRight, Briefcase } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../components/BrandIcons';
 import { resumeData } from '../data/resume';
 
@@ -113,19 +113,14 @@ export default function Hero() {
               Software Engineering Graduate. Building reliable, high-performance production systems and cloud platforms.
             </motion.p>
 
-            {/* Work rights & WWCC banner */}
+            {/* Work rights banner */}
             <motion.div
               variants={itemVariants}
-              className="flex flex-col sm:flex-row gap-4 mb-10 text-xs text-neutral-500 dark:text-neutral-400"
+              className="flex mb-10 text-xs text-neutral-500 dark:text-neutral-400"
             >
               <div className="flex items-center gap-2 justify-center lg:justify-start">
                 <Briefcase className="w-4 h-4 text-neutral-400" />
                 <span>Full Work Rights (Subclass 485)</span>
-              </div>
-              <div className="hidden sm:block text-neutral-300 dark:text-neutral-800">|</div>
-              <div className="flex items-center gap-2 justify-center lg:justify-start">
-                <Award className="w-4 h-4 text-neutral-400" />
-                <span>WWCC Current & Valid</span>
               </div>
             </motion.div>
 
